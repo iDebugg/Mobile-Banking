@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top right, black, black, black, black, green);
+}
+
+.homecontainer {
+    display: flex;
+    margin-top: 70px;
+    padding-left: 100px;
+    color: white;
+}
+
+.homecontainer1 {
+    width: 650px;
+}
+
+.homecontainer2 {
+    width: 450px;
+    text-align: center;
+}
+
+.anima {
+    width: 450px;
+}
+
+.animat {
+    display: none;
+}
+
+.singnIN {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.signinContainer {
+    height: 500px;
+    padding-left: 200px;
+    padding-top: 30px;
+    display: flex;
+    gap: 100px;
+}
+
+.d-block {
+    width: 400px;
+    height: 600px;
+    border-radius: 40px;
+    color: black;
+}
+
+.signinContainer2 {
+    width: 500px;
+    padding-top: 50px;
+}
+
+input {
+    background-color: rgb(218, 205, 205) !important;
+}
+
+@media screen and (max-width: 430px) {
+    .homecontainer {
+        display: grid;
+        margin-top: 70px;
+        padding-left: 20px;
+        color: white;
+        gap: 20px;
+    }
+    .homecontainer1 {
+        width: 350px;
+        text-align: center;
+    }
+    .homecontainer2 {
+        width: 350px;
+        text-align: center;
+    }
+    .anima {
+        display: none;
+    }
+    .animat {
+        display: block;
+        width: 300px;
+    }
+    .signinContainer {
+        height: 500px;
+        padding-left: 50px;
+        padding-top: 1px;
+        display: grid;
+    }
+    .signinContainer2 {
+        width: 300px;
+        padding-top: 1px;
+    }
+}
